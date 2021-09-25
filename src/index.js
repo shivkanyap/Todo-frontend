@@ -11,6 +11,7 @@ import configureStore from "./store/store";
 
 const store = configureStore();
 
+
 store.subscribe(() => {
   console.log("redux store state", store.getState());
 });
